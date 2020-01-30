@@ -1,0 +1,58 @@
+var score = [
+    {
+        game: 'Baseball',
+        wins: 6,
+        losses: 9,
+    },
+    {
+        game: 'Basketball',
+        wins: 12,
+        losses: 4,
+    },
+    {
+        game: 'Soccer',
+        wins: 11,
+        losses: 8,
+    },
+        {
+        game: 'Rugby',
+        wins: 16,
+        losses: 2,
+    },
+        {
+        game: 'Volleyball',
+        wins: 7,
+        losses: 13,
+    },
+        {
+        game: 'Football',
+        wins: 9,
+        losses: 3,
+    },
+        {
+        game: 'Tennis',
+        wins: 20,
+        losses: 18,
+    },
+        {
+        game: 'Hockey',
+        wins: 5,
+        losses: 15,
+    },
+        {
+        game: 'Track',
+        wins: 19,
+        losses: 17,
+    },
+        {
+        game: 'Golf',
+        wins: 0,
+        losses: 10,
+    },
+];
+
+function start() {
+    for(var i = 0; i < score.length; i++) {
+        console.log('You\'ve had ' + score[i].wins + ' wins and ' + score[i].losses + ' losses in ' + score[i].game + '.');
+    }
+}
